@@ -10,3 +10,6 @@ mono <executable name>
 
 E.g.
 mono Borwell_Paint_Project.exe
+
+Although, on further inspection it does also run using wine, if that is easier to use / install
+however I can't recommend this... it doesn't look so pretty... doesn't seem to support transparency layers at all.
