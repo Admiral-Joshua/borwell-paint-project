@@ -1,0 +1,13 @@
+C:\Users\admir\Documents\Visual Studio 2017\Projects\Borwell Paint Project\Borwell Paint Project\bin\x64\Release\Borwell Paint Project.exe.config
+C:\Users\admir\Documents\Visual Studio 2017\Projects\Borwell Paint Project\Borwell Paint Project\bin\x64\Release\Borwell Paint Project.exe.manifest
+C:\Users\admir\Documents\Visual Studio 2017\Projects\Borwell Paint Project\Borwell Paint Project\bin\x64\Release\Borwell Paint Project.application
+C:\Users\admir\Documents\Visual Studio 2017\Projects\Borwell Paint Project\Borwell Paint Project\bin\x64\Release\Borwell Paint Project.exe
+C:\Users\admir\Documents\Visual Studio 2017\Projects\Borwell Paint Project\Borwell Paint Project\bin\x64\Release\Borwell Paint Project.pdb
+C:\Users\admir\Documents\Visual Studio 2017\Projects\Borwell Paint Project\Borwell Paint Project\obj\x64\Release\Borwell_Paint_Project.Form1.resources
+C:\Users\admir\Documents\Visual Studio 2017\Projects\Borwell Paint Project\Borwell Paint Project\obj\x64\Release\Borwell_Paint_Project.Properties.Resources.resources
+C:\Users\admir\Documents\Visual Studio 2017\Projects\Borwell Paint Project\Borwell Paint Project\obj\x64\Release\Borwell Paint Project.csproj.GenerateResource.Cache
+C:\Users\admir\Documents\Visual Studio 2017\Projects\Borwell Paint Project\Borwell Paint Project\obj\x64\Release\Borwell Paint Project.exe.manifest
+C:\Users\admir\Documents\Visual Studio 2017\Projects\Borwell Paint Project\Borwell Paint Project\obj\x64\Release\Borwell Paint Project.application
+C:\Users\admir\Documents\Visual Studio 2017\Projects\Borwell Paint Project\Borwell Paint Project\obj\x64\Release\Borwell Paint Project.exe
+C:\Users\admir\Documents\Visual Studio 2017\Projects\Borwell Paint Project\Borwell Paint Project\obj\x64\Release\Borwell Paint Project.pdb
+C:\Users\admir\Documents\Visual Studio 2017\Projects\Borwell Paint Project\Borwell Paint Project\obj\x64\Release\Borwell Paint Project.csprojResolveAssemblyReference.cache

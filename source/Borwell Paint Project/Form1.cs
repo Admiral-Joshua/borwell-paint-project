@@ -835,7 +835,7 @@ namespace Borwell_Paint_Project
                 Changes_Saved = true;
             }
         }
-        public void Clear_Project(bool exitAfter)
+        public void Clear_Project()
         {
             if (roomPlan1.Controls.Count > 0 && Changes_Saved == false) {
                 DialogResult MsgResult = MessageBox.Show("You have unsaved changes in your room design. Would you like to save changes?", "Are you sure?", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
@@ -864,14 +864,14 @@ namespace Borwell_Paint_Project
             roomVolumeOutput.Text = "0m";
             paintRequiredOutput.Text = "0.0 Litres";
 
-            if (exitAfter)
-            {
-                Application.Exit();
-            }
+            //if (exitAfter)
+            //{
+            //    Environment.Exit(0);
+            //}
         }
         private void Load_Project(string TargetPath)
         {
-            Clear_Project(false);
+            Clear_Project();
             using (System.IO.StreamReader file =
                 new System.IO.StreamReader(TargetPath))
             {
@@ -961,7 +961,7 @@ namespace Borwell_Paint_Project
 
         private void NewToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Clear_Project(false);
+            Clear_Project();
         }
 
         private void OpenToolStripMenuItem_Click(object sender, EventArgs e)
@@ -976,7 +976,7 @@ namespace Borwell_Paint_Project
 
         private void ExitToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Clear_Project(true);
+            this.Close();
         }
 
         private void SaveFileDialog1_FileOk(object sender, CancelEventArgs e)
@@ -998,7 +998,10 @@ namespace Borwell_Paint_Project
 
         private void Form1_FormClosing(object sender, FormClosingEventArgs e)
         {
-            Clear_Project(true);
+            if (roomPlan1.Controls.Count > 0)
+            {
+                Clear_Project();
+            }
         }
     }
 }
