@@ -9,3 +9,5 @@ update / upgrade to .NET Framework 4.6
 I have packaged the tool into handy EXEs for Windows users. And I will also
  have a friend of mine help build it into a Linux package too! See the bin folder
  for these.
+
+All my Visual Studio source code can be found in the source directory
