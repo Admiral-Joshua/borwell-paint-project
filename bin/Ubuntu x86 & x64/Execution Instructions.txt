@@ -1,0 +1,12 @@
+For running the Linux verison, you're gonna need monodevelop. If you're not sure you have it
+try running mono --version... If that works, you got it,
+else you'll have to download it. 
+
+Just Google MonoDevelop. You should find some instructions online or somewhere to help
+you get that set-up. Once that's done, you should be able to run this program straight away
+using the command:
+
+mono <executable name>
+
+E.g.
+mono Borwell_Paint_Project.exe
